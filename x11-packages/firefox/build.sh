@@ -1,10 +1,10 @@
 TERMUX_PKG_HOMEPAGE=https://librewolf-community.gitlab.io/
 TERMUX_PKG_DESCRIPTION="LibreWolf web browser - A privacy-focused fork of Firefox"
 TERMUX_PKG_LICENSE="MPL-2.0"
-TERMUX_PKG_MAINTAINER="@termux"
+TERMUX_PKG_MAINTAINER="@Mdmurtajim"
 TERMUX_PKG_VERSION="133.0-1"
 TERMUX_PKG_SRCURL=https://gitlab.com/api/v4/projects/32320088/packages/generic/librewolf-source/${TERMUX_PKG_VERSION}/librewolf-${TERMUX_PKG_VERSION}.source.tar.gz
-TERMUX_PKG_SHA256=<SHARED_SHA256_HASH>  # Replace with actual SHA256 hash
+TERMUX_PKG_SHA256=2090c835346ce395403007cb2d4982c12abc2e76df4bbc0083a60ae50a28c4d7
 TERMUX_PKG_DEPENDS="ffmpeg, fontconfig, freetype, gdk-pixbuf, glib, gtk3, libandroid-shmem, libandroid-spawn, libc++, libcairo, libevent, libffi, libice, libicu, libjpeg-turbo, libnspr, libnss, libpixman, libsm, libvpx, libwebp, libx11, libxcb, libxcomposite, libxdamage, libxext, libxfixes, libxrandr, libxtst, pango, pulseaudio, zlib"
 TERMUX_PKG_BUILD_DEPENDS="libcpufeatures, libice, libsm"
 TERMUX_PKG_BUILD_IN_SRC=true
